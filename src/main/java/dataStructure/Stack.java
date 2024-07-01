@@ -46,7 +46,6 @@ public class Stack {
 
     public void push(int value) {
         Node newNode = new Node(value);
-        Node temp = this.top;
         if (this.height == 0) {
             this.top = newNode;
         } else {
